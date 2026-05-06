@@ -1,0 +1,30 @@
+{
+  "name": "ai-agent-cli-tool",
+  "version": "1.0.0",
+  "description": "A conversational CLI agent (Cursor / Windsurf style) that uses an LLM reasoning loop to plan, call tools, and produce real files. Capable of cloning the Scaler Academy website with HTML, CSS and JS.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "openai",
+    "scaler",
+    "tool-calling",
+    "reasoning-loop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3",
+    "puppeteer": "^24.43.0"
+  }
+}
